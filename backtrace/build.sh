@@ -1,2 +1,2 @@
 #! /bin/bash
-g++ -g test.c backtrace.c -o test
+gcc -g test.c backtrace.c -o test
