@@ -1,2 +1,2 @@
 #! /bin/bash
-gcc -g test.c backtrace.c -o test
+gcc -g -rdynamic test.c backtrace.c -o test
